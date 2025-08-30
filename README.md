@@ -30,7 +30,7 @@ Restart is a true modern framework:
 
 Yes, you can! There is a serverless handler setup in `api/index.tsx` so you just need to add configs like `vercel.json` or others to deploy to your favorite host!
 
-For example I deployed on Vercel a demo for Restart <a href="https://restart-vercel-example.vercel.app/" target="_blank">here</a>.
+For example I deployed on Vercel a demo for Restart <a href="https://restart-vercel-example.vercel.app/" target="_blank">here</a>. Check the source code <a href="https://github.com/lucrbvi/restart-vercel-example" target="_blank">here</a>.
 
 PROBLEMS:
 - The `restart.config.ts` is linking into the client bundle, not too problematic but need to be fixed because anoying.
