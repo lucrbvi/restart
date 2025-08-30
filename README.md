@@ -33,4 +33,4 @@ Yes, you can! There is a serverless handler setup in `api/index.tsx` so you just
 For example I deployed on Vercel a demo for Restart <a href="https://restart-vercel-example.vercel.app/" target="_blank">here</a>.
 
 PROBLEMS:
-- React Server Functions are bundle into the client JS, it expose the React Server Functions' code in client (very dangerous)
+- The `restart.config.ts` is linking into the client bundle, not too problematic but need to be fixed because anoying.
