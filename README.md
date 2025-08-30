@@ -26,5 +26,11 @@ Restart is a true modern framework:
 - You can define in a **secure** way backend functions with `serverFunction`, it's an easy way to write tRPC public procedure (*it does not leak to the client*).
 - You can create your own middlewares with `newMiddleware`.
 
+## Can I deploy it in Serverless Environments?
+
+Yes, you can! There is a serverless handler setup in `api/index.tsx` so you just need to add configs like `vercel.json` or others to deploy to your favorite host!
+
+For example I deployed on Vercel a demo for Restart <a href="https://restart-vercel-example.vercel.app/" target="_blank">here</a>.
+
 PROBLEMS:
 - React Server Functions are bundle into the client JS, it expose the React Server Functions' code in client (very dangerous)
